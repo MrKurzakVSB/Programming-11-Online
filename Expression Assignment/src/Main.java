@@ -13,7 +13,7 @@ public class Main {
          *
          * Only complete one computation per line of code
          * The output for every line is always equal to the same number
-         * In example above the out put should be
+         * In example above the output should be:
          * 13.37
          * 13.37
          * 13.37
