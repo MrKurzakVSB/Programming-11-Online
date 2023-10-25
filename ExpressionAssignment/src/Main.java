@@ -1,24 +1,30 @@
 public class Main {
     public static void main(String args[]){
         /******
-         * For the following expressions write out using code step by step how the compiler will evaluate it
+         * For the following expressions, write out the SOP code to show the step by step process the compiler
+		 * follows to evaluate each expression. The output should be the same for every step.
          *
          * Example:
          *
-         * System.out.println(2 * 5 + 3);
-         * System.out.println(10 + 3);
-         * System.out.println(13);
+         * System.out.println(2 * 5 + 3 + 0.37);	
+		 * System.out.println(10 + 3 + 0.37);
+		 * System.out.println(13 + 0.37);
+         * System.out.println(13.37);
          *
          ********** Assignment Criteria********************
          *
-         * Only complete one computation per line of code
-         * The output for every line is always equal to the same number
-         * In example above the output should be:
+         * 1. Only complete one computation per line of code
+         * 2. The output for every line is always equal to the same number
+         * 
+		 * In the example above the output should be:
+		 *
          * 13.37
          * 13.37
          * 13.37
+		 * 13.37
          *
          * *****/
+		 
         //Expression 1
         System.out.println((9 - 4)+ 10/2 - (4 - 8)/3);
 
